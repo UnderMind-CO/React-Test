@@ -12,20 +12,20 @@ export default function DiscordSection() {
   }, []);
 
   return (
-    <section className="py-16 bg-slate-900">
+    <section className="py-16 bg-[#1a1a1a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <a
           href="https://discord.gg/FV2bQAsC"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-8 py-4 bg-[#5865F2] hover:bg-[#4752C4] text-white rounded-lg transition-colors duration-300 mb-6 group"
+          className="inline-flex items-center px-8 py-4 bg-[#ff4d00] hover:bg-[#ff8533] text-white rounded-lg transition-colors duration-300 mb-6 group"
         >
           <FaDiscord className="w-6 h-6 mr-2 group-hover:animate-bounce" />
           Únete a nuestra comunidad en Discord
         </a>
         
         <div className="text-gray-400 text-sm">
-          Tu IP: <span className="text-amber-500">{ipAddress}</span>
+          Tu IP: <span className="text-[#ff4d00]">{ipAddress}</span>
         </div>
       </div>
     </section>
