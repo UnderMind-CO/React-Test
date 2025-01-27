@@ -26,14 +26,14 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-20 bg-slate-800">
+    <section className="py-20 bg-[#1a1a1aed] border-t border-[#ff4d00]/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12">
           Características <span className="text-amber-500">Principales</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-slate-900 p-6 rounded-lg hover:transform hover:scale-105 transition duration-300">
+            <div key={index} className="bg-[#2a2a2aad] p-6 rounded-lg hover:transform hover:scale-105 transition duration-300">
               <div className="mb-4">{feature.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
               <p className="text-gray-400">{feature.description}</p>
